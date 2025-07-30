@@ -2,6 +2,8 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
+  console.log('🚀 App component is rendering successfully!');
+  
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [loading, setLoading] = useState(false);

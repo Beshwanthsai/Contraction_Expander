@@ -240,6 +240,22 @@ function App() {
             )}
           </div>
         </div>
+        
+        <footer className="footer">
+          <div className="footer-content">
+            <div className="sparkle-line">
+              <span className="sparkle">✨</span>
+              <span className="sparkle">⭐</span>
+              <span className="sparkle">✨</span>
+            </div>
+            <p className="footer-text">
+              <span className="magic-text">Crafted with</span>
+              <span className="heart">⚡️</span>
+              <span className="magic-text">by</span>
+              <span className="creator-name">Beshwanth Sai Katari</span>
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
